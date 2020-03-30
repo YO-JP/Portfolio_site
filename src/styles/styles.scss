@@ -1,0 +1,32 @@
+@import 'partials/mixins';
+@import 'partials/variables';
+@import 'partials/about';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/icons';
+@import 'partials/nav';
+@import 'partials/work';
+@import 'partials/contact';
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+h2{
+    color:#18608a;
+}
+ul {
+    list-style-type: none;
+}

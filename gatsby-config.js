@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Yuta Obara`,
-    description: `Yuta Obara Portfolio Website`,
+    description: `Yuta Obara Portfolio Wite`,
     author: `Yuta Obara`,
   },
   plugins: [

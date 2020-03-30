@@ -1,0 +1,39 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    &__form{
+        display:flex;
+        flex-direction: column;
+        width:15rem;
+    }
+    &__label{
+        font-size:12px;
+        margin:.25rem 0;
+        color:#18608a;
+    }
+    &__input{
+        margin-bottom:.5rem;
+        width:15rem;
+        outline:none;
+        padding:0.25rem;
+        border:1px solid black;
+        color:#18608a;
+        &--area{
+            height:5rem;
+        }
+    }
+    &__button{
+        background-color:#34ebe1;
+        border: 1px solid white;
+        border-radius: 2rem;
+        width:15rem;
+        height:2.5rem;
+        margin-top:.5rem;
+        color:#18608a;
+        :hover{
+            cursor: pointer;;
+        }
+    }
+}

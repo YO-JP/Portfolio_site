@@ -1,0 +1,42 @@
+.work{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    &__heading{
+        font-size:1.8rem;
+    }
+    &__container{
+        border: 1px solid black;
+        border-radius: 1rem;
+        margin:1rem;
+        background:#18608a;
+    }
+    &__title{
+        font-size:1.5rem;
+        margin:.5rem;
+    }
+    &__list{
+        display:flex;
+        justify-content: space-between;
+        margin:.5rem 2rem;
+    }
+    &__links{
+        margin:0 2rem .5rem;
+        display:flex;
+        justify-content: center;
+    }
+    &__button{
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#34ebe1;
+        border-radius: 1rem;
+        width:5rem;
+        height:2.5rem;
+        color:#18608a;
+        margin:.5rem;
+        :hover{
+            cursor: pointer;;
+        }
+    }
+}
