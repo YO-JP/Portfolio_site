@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/nav'
 
 const About = () => (
-    <header className="header">
+    <header className="header" id="top">
         <Nav />
         <div className="header__container">
           <h2 className="header__title">Hello World!</h2>

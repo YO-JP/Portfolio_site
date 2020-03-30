@@ -1,9 +1,16 @@
 .nav{
     display:flex;
     padding:1rem 0;
+    @include tablet{
+        padding:1.5rem 0;
+    }
     justify-content: flex-end;
     &__option{
         font-size:.8rem;
         margin-left:.5rem;
+        @include tablet{
+            font-size:1rem;
+            margin-left:1rem;
+        }
     }
 }

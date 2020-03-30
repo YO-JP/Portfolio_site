@@ -13,62 +13,57 @@ import git from '../images/git-icon.svg'
 
 const Icons = () => (
     <section className="icons">
+    <div className = "icons__tabletcontainer">
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={html} alt=""/>
-                <p className="icons__description">HTML5</p>
             </div>
             <div className="icons__overlay">
                 <img className="icons__img" src={css} alt=""/>
-                <p className="icons__description">CSS3</p>
             </div>
         </div>
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={sass} alt=""/>
-                <p className="icons__description">SASS</p>
             </div>
             <div className="icons__overlay">
                 <img className="icons__img" src={javascript} alt=""/>
-                <p className="icons__description">Javascript</p>
             </div>
         </div>
+    </div>
+    <div className = "icons__tabletcontainer">
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={react} alt=""/>
-                <p className="icons__description">React</p>
             </div>
             <div className="icons__overlay">
                 <img className="icons__img" src={nodejs} alt=""/>
-                <p className="icons__description">Node.js</p>
             </div>
         </div>
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={express} alt=""/>
-                <p className="icons__description">Express</p>
             </div>
             <div className="icons__overlay">
                 <img className="icons__img" src={mongo} alt=""/>
-                <p className="icons__description">MongoDB</p>
             </div>
         </div>
+    </div>
+    <div className = "icons__tabletcontainer">
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={gatsby} alt=""/>
-                <p className="icons__description">Gatsby</p>
             </div>
             <div className="icons__overlay">
                 <img className="icons__img" src={graphql} alt=""/>
-                <p className="icons__description">GraphQL</p>
             </div>
         </div>
         <div className="icons__container">
             <div className="icons__overlay">
                 <img className="icons__img" src={git} alt=""/>
-                <p className="icons__description">Git</p>
             </div>
         </div>
+    </div>
     </section>
 )
 

@@ -7,9 +7,15 @@
     &__heading{
         font-size:1.8rem;
         margin:.5rem;
+        @include tablet{
+            font-size:2rem;
+        }
     }
     &__description{
         margin:.5rem;
+        @include tablet{
+            margin: .5rem 10rem;
+        }
     }
     &__paragraph{
         color:#18608a;
@@ -17,5 +23,9 @@
     &__subheading{
         font-size:1.2rem;
         margin:.5rem;
+        color:#18608a;
+        @include tablet{
+            font-size:1.5rem;
+        }
     }
 }

@@ -13,8 +13,19 @@
     }
     &__option{
         padding:0 .5rem;
+        @include tablet{
+            padding:0 1rem;
+        }
     }
     &__img{
         width:2rem;
+        @include tablet{
+            width: 3rem;
+        }
+    }
+    &__name{
+        @include tablet{
+            font-size:1.2rem;
+        }
     }
 }

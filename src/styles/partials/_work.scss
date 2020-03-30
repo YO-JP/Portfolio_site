@@ -4,21 +4,38 @@
     text-align: center;
     &__heading{
         font-size:1.8rem;
+        @include tablet{
+            font-size: 2rem;
+        }
     }
     &__container{
-        border: 1px solid black;
         border-radius: 1rem;
         margin:1rem;
         background:#18608a;
+        @include tablet{
+            margin:1rem 10rem;
+        }
+        @include laptop{
+            width:50rem;
+            align-self:center;
+        }
     }
     &__title{
         font-size:1.5rem;
         margin:.5rem;
+        @include tablet{
+            margin:1rem;
+        }
+    }
+    &__listcontainer{
+        display:flex;
+        justify-content: center;
+        padding:.5rem;
     }
     &__list{
+        width:15rem;
         display:flex;
         justify-content: space-between;
-        margin:.5rem 2rem;
     }
     &__links{
         margin:0 2rem .5rem;
@@ -37,6 +54,10 @@
         margin:.5rem;
         :hover{
             cursor: pointer;;
+        }
+        @include tablet{
+            width:6rem;
+            height:3rem;
         }
     }
 }
